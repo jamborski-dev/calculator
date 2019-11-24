@@ -1,0 +1,234 @@
+strong {
+  color: #e9d600;
+}
+
+p {
+  color: #cacaca;
+}
+
+* {
+  font-family: 'Muli', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(217deg, #ff0000cc, #e9d600 70.71%);
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #3e3e3e;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+}
+
+.title {
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+}
+
+h4 {
+  font-family: 'Muli', sans-serif;
+  color: #fff;
+}
+
+hr {
+  border: 1px solid #424242;
+  background: gray;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: #cba500;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.history-entry-time, .history-clear {
+  background: #af563a;
+  padding: 2px 5px;
+  font-size: 11px;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+
+.history-clear {
+  background: #8b8a8a;
+  color: #fff;
+  padding: 3px 6px;
+  font-size: 13px;
+  border-radius: 14px;
+  margin-right: 0;
+  float: right;
+  margin-top: -3px;
+}
+
+.history-clear:hover {
+  background: #948848;
+}
+
+.container > div {
+  background: -webkit-gradient(linear, left top, right top, from(#282828), to(#353535));
+  background: linear-gradient(90deg, #282828, #353535 100%);
+  border-radius: 15px;
+  border: 1px solid #858585;
+  -webkit-box-shadow: 0 0 60px #4d410ca6;
+          box-shadow: 0 0 60px #4d410ca6;
+  color: #fff;
+  min-width: 300px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 20px;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .step {
+  font-size: 13px;
+}
+
+.container .steps > p,
+.container .history > p {
+  opacity: 1;
+  margin-left: 0;
+  line-height: 20px;
+  -webkit-transition-property: opacity margin-left;
+  transition-property: opacity margin-left;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+.container .steps > p.hidden,
+.container .history > p.hidden {
+  opacity: 0;
+  margin-left: -30px;
+}
+
+.container .history > p {
+  line-height: 30px;
+  margin: 0;
+}
+
+.container .step.total {
+  font-size: 17px;
+}
+
+.container .calculator {
+  padding: 3px;
+  width: 401px;
+  height: 497px;
+}
+
+.container .calculator .display {
+  margin-bottom: 3px;
+}
+
+.container .calculator .display input {
+  background: none;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: right;
+  font-size: 30px;
+  border: none;
+  color: #fff;
+}
+
+.container .calculator .display .display-main {
+  font-size: 20px;
+  padding: 20px 20px 5px;
+  color: gray;
+}
+
+.container .calculator .buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 95px 95px 95px 100px;
+      grid-template-columns: 95px 95px 95px 100px;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.container .calculator .func-btn {
+  background: #3e3e3e;
+}
+
+.container .calculator .disabled {
+  color: gray;
+}
+
+.container .calculator .disabled:hover {
+  background: #3e3e3e;
+  cursor: not-allowed;
+}
+
+.container .calculator button {
+  font-size: 20px;
+  border: none;
+  background: #303030;
+  padding: 15px 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.container .calculator button:hover {
+  background: #cba500;
+}
+
+.container .calculator .chin-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding: 10px;
+  padding-top: 13px;
+  font-size: 10px;
+  color: #8c8c8c;
+}
+
+.container .calculator .left {
+  text-align: left;
+}
+
+.container .calculator .right {
+  text-align: right;
+}
+
+@media screen and (max-width: 1060px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: block;
+  }
+}
+/*# sourceMappingURL=calc.css.map */
