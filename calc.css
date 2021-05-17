@@ -7,9 +7,9 @@ p {
 }
 
 * {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -22,16 +22,16 @@ body {
 h1 {
   color: #3e3e3e;
   text-align: center;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .title {
   color: #fff;
-  text-shadow: 0 0 15px #000;
+  text-shadow: 0 0 16px #000;
 }
 
 h4 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: #fff;
 }
 
@@ -57,7 +57,8 @@ button:focus {
   outline: 0;
 }
 
-.history-entry-time, .history-clear {
+.history-entry-time,
+.history-clear {
   background: #af563a;
   padding: 2px 5px;
   font-size: 11px;
@@ -81,12 +82,18 @@ button:focus {
 }
 
 .container > div {
-  background: -webkit-gradient(linear, left top, right top, from(#282828), to(#353535));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#282828),
+    to(#353535)
+  );
   background: linear-gradient(90deg, #282828, #353535 100%);
   border-radius: 15px;
   border: 1px solid #858585;
   -webkit-box-shadow: 0 0 60px #4d410ca6;
-          box-shadow: 0 0 60px #4d410ca6;
+  box-shadow: 0 0 60px #4d410ca6;
   color: #fff;
   min-width: 300px;
   padding: 10px 20px;
@@ -99,10 +106,10 @@ button:focus {
   display: grid;
   grid-column-gap: 20px;
   -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .container .step {
@@ -117,9 +124,9 @@ button:focus {
   -webkit-transition-property: opacity margin-left;
   transition-property: opacity margin-left;
   -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
   -webkit-transition-duration: 0.1s;
-          transition-duration: 0.1s;
+  transition-duration: 0.1s;
 }
 
 .container .steps > p.hidden,
@@ -167,7 +174,7 @@ button:focus {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 95px 95px 95px 100px;
-      grid-template-columns: 95px 95px 95px 100px;
+  grid-template-columns: 95px 95px 95px 100px;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
 }
@@ -202,7 +209,7 @@ button:focus {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
   padding: 10px;
   padding-top: 13px;
   font-size: 10px;
@@ -222,7 +229,7 @@ button:focus {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
   }
 }
 
